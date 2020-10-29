@@ -1,20 +1,20 @@
 {
-  "name": "@johnpapa/card",
-  "version": "1.0.5",
-  "description": "A personal card for John Papa",
+  "name": "@guiseek/card",
+  "version": "0.0.1",
+  "description": "Cartão sobre Guilherme Siquinelli",
   "main": "index.js",
   "bin": {
     "johnpapa-card": "./bin/index.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/johnpapa/johnpapa-card.git"
+    "url": "https://github.com/guiseek/card.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "John Papa (http://johnpapa.net)",
+  "author": "Gui Seek (https://guiseek.web.app)",
   "license": "MIT",
   "dependencies": {
     "boxen": "^2.1.0",

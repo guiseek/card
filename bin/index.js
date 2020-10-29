@@ -17,18 +17,18 @@ const options = {
 
 // Text + chalk definitions
 const data = {
-  name: chalk.white('John Papa /'),
-  handle: chalk.cyan('Disney Fan'),
-  work: chalk.white('Web Developer and Full Stack Architect'),
-  twitter: chalk.cyan('https://twitter.com/john_papa'),
-  github: chalk.cyan('https://github.com/johnpapa'),
-  linkedin: chalk.cyan('https://linkedin.com/in/papajohn'),
-  web: chalk.cyan('https://johnpapa.net'),
-  npx: chalk.white('npx @johnpapa/card'),
+  name: chalk.white('  Gui Seek:'),
+  handle: chalk.cyan(' Degustador da boa tecnologia'),
+  work: chalk.white('Engenheiro front-end'),
+  twitter: chalk.cyan('https://twitter.com/guiseek'),
+  github: chalk.cyan('https://github.com/guiseek'),
+  youtube: chalk.cyan('https://youtube.com/c/Guiseek'),
+  web: chalk.cyan('https://guiseek.web.app'),
+  npx: chalk.white('npx @guiseek/card'),
   labelWork: chalk.white.bold('      Work:'),
   labelTwitter: chalk.white.bold('   Twitter:'),
   labelGitHub: chalk.white.bold('    GitHub:'),
-  labelLinkedIn: chalk.white.bold('  LinkedIn:'),
+  labelYoutube: chalk.white.bold('   Youtube:'),
   labelWeb: chalk.white.bold('       Web:'),
   labelCard: chalk.white.bold('      Card:'),
 };
@@ -36,10 +36,10 @@ const data = {
 // Actual strings we're going to output
 const newline = '\n';
 const heading = `${data.name} ${data.handle}`;
-const working = `${data.labelWork}  ${data.work}`;
+const working = `${data.labelWork}  ${data.work} \n`;
 const twittering = `${data.labelTwitter}  ${data.twitter}`;
 const githubing = `${data.labelGitHub}  ${data.github}`;
-const linkedining = `${data.labelLinkedIn}  ${data.linkedin}`;
+const youtubeing = `${data.labelYoutube}  ${data.youtube}`;
 const webing = `${data.labelWeb}  ${data.web}`;
 const carding = `${data.labelCard}  ${data.npx}`;
 
@@ -53,7 +53,7 @@ const output = heading
   + newline
   + githubing
   + newline
-  + linkedining
+  + youtubeing
   + newline
   + webing
   + newline
